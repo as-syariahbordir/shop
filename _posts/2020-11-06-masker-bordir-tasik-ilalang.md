@@ -1,7 +1,7 @@
 ---
 title: Masker Bordir Ilalang
 description: Masker Kain Bordir Bunga. -Bahan kain 100% Katun dengan 3 lapisan.
-categories: masker-bordir
+categories: Apparel & Accessories > Costumes & Accessories > Masks
 price: '20.000'
 diskon: 22%
 discount: '15.600'

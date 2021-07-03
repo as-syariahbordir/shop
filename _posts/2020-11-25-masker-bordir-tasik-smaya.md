@@ -1,7 +1,7 @@
 ---
 title: Masker Bordir sMaya
 description: Bahan Kain Katun, 3 lapis,
-categories: masker-bordir
+categories: Apparel & Accessories > Costumes & Accessories > Masks
 price: '20.000'
 diskon: 22%
 discount: '15.600'

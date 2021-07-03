@@ -37,7 +37,7 @@
     {% if page.layout == "product" %}
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:description" content="{{ page.description }}">
-    <meta property="og:url" content="https://shop.plus62store.my.id{{page.url}}">
+    <meta property="og:url" content="{{site.url}}{{page.url}}">
     <meta property="og:image" content="{{ page.image }}">
     <meta property="product:brand" content="Plus62Bordir">
     <meta property="product:availability" content="in stock">
@@ -171,7 +171,7 @@
   "description": "{{ page.description }}",
   "sku": "{{page.sku}}",
   "mpn": "{{page.mpn}}",
-  "category": "{{page.categories}}",
+  "google_product_category": "{{page.categories}}",
   "productID": "{{page.noID}}"
 }
 </script>

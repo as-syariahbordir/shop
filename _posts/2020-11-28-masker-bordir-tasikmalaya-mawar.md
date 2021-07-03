@@ -1,7 +1,7 @@
 ---
 title: Masker Bordir Mawar
 description: Masker kain Bordir dengan bahan kain 100% katun 3 lapisan
-categories: masker-bordir
+categories: Apparel & Accessories > Costumes & Accessories > Masks
 price: '20.000'
 diskon: 22%
 discount: '15.600'
