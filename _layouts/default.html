@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+{% include head.html %}
+<body>
+<ion-app>
+{% include header.html %}
+<ion-content>
+      <ion-refresher slot="fixed" id="refresher">
+        <ion-refresher-content
+      pulling-icon="chevron-down-circle-outline"
+      pulling-text="Tarik Untuk Memuat Ulang"
+      refreshing-text="Memuat Ulang Halaman..."></ion-refresher-content>
+      </ion-refresher>
+<div class="layout-main">
+    <div 
+{% if page.sidebar_option == 'sidebar' %}id="main-side"{% endif %}
+{% if page.sidebar_option == 'no-sidebar' %}id="noside-main"{% endif %} role="main" class="container">
+      {{ content }}
+    </div>
+{% if page.sidebar_option == 'sidebar' %}{% include sidebar.html %}{% endif %}
+</div>
+{% include widget-footer.html %}
+</ion-content>
+{% include pay.html %}
+{% include footer.html %}
+</ion-app>
+    {% include analytics.html %}
+    {% include script-js.html %}
+  </body>
+</html>

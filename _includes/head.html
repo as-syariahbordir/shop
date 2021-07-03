@@ -1,0 +1,201 @@
+
+  <head>
+    <title>{{ site.name }} – {% if page.title %}{{ page.title }} – {% endif %}{{ site.description }}</title>
+
+    <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+
+    <!-- Primary Meta Tags -->
+    <title>{{site.title}}</title>
+    <meta name="title" content="{{site.title}}">
+    <meta name="description" content="{{site.description}}">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+    <meta http-equiv="x-dns-prefetch-control" content="on">
+    {% include fav.html %}
+    {% if page.layout == "default" %}
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{site.url}}">
+    <meta property="og:title" content="{{site.title}}">
+    <meta property="og:description" content="{{site.description}}">
+    <meta property="og:image" content="https://cdn.as-syariahbordir.com/assets/logo/logo-512.webp">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{site.url}}">
+    <meta property="twitter:title" content="{{site.title}}">
+    <meta property="twitter:description" content="{{site.description}}">
+    <meta property="twitter:image" content="https://cdn.as-syariahbordir.com/assets/logo/logo-144.webp">
+    {% endif %}
+    {% if page.layout == "product" %}
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="https://shop.plus62store.my.id{{page.url}}">
+    <meta property="og:image" content="{{ page.image }}">
+    <meta property="product:brand" content="Plus62Bordir">
+    <meta property="product:availability" content="in stock">
+    <meta property="product:condition" content="new">
+    <meta property="product:price:amount" content="{{ page.price }}">
+    <meta property="product:price:currency" content="IDR">
+    <meta property="product:retailer_item_id" content="{{page.sku}}">
+    <meta property="product:item_group_id" content="{{page.noID}}">
+    {% endif %}
+    <meta content="{{ site.fb-admin }}" property="fb:admins"/>
+    <meta content="{{ site.fb-appID }}" property="fb:app_id"/>
+    <meta content="{{ site.fb-profile }}" property="fb:profile_id"/>
+    <meta content="{{ site.fb-pages }}" property="fb:pages"/>
+    <meta name="theme-color" content="#fff" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="As-Syariah Bordir" />
+    <meta name="msapplication-TileImage" content="https://cdn.as-syariahbordir.com/fav/ms-icon-144x144.png" />
+    <meta name="msapplication-TileColor" content="#fff" />
+    <meta class="theme-color" content="#fff" name="apple-mobile-web-app-status-bar-style" />
+    <meta class="theme-color" content="#fff" name="msapplication-navbutton-color" />
+    <meta class="theme-color" content="#fff" name="theme-color" />
+
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.url }}/feed.xml" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<link href="https://cdn.as-syariahbordir.com/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script>
+    function onSubmit(token) {
+      alert('Terimakasih ' + document.getElementById('order').value);
+    }
+
+    function validate(event) {
+      event.preventDefault();
+      if (!document.getElementById('nama').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('nomor').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('email').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('kurir').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('alamat').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('kota').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('provinsi').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      } else if (!document.getElementById('kodepos').value) {
+        alert("Kamu Harus mengisi semua kolom.");
+      }
+     {
+        grecaptcha.execute();
+      }
+    }
+
+    function onload() {
+      var element = document.getElementById('order');
+      element.onclick = validate;
+    }
+  </script>
+
+  <script type="module">
+    import { actionSheetController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
+    window.actionSheetController = actionSheetController;
+  </script>
+  <script type="module">
+    import { toastController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
+    window.toastController = toastController;
+  </script>
+  <script type="module">
+    import { modalController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
+    window.modalController = modalController;
+  </script>
+<style>div::-webkit-scrollbar,.app-description-text::-webkit-scrollbar{display:none;}</style>
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "WebSite",
+  "url": "{{site.url}}",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "/search?keyword={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+    {% if page.layout == "product" %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Product",
+  "name": "{{ page.title }}",
+  "image": "{{ page.image }}",
+  "brand":"plus62bordir",
+  "offers": {
+    "@type": "Offer",
+    "priceCurrency": "IDR",
+    "price": "{{ page.price }}",
+    "sale_price": "{{ page.discount }}",
+    "availability": "https://schema.org/InStock",
+    "url": "{{site.url}}{{page.url}}",
+    "priceValidUntil": "2022-01-01T00:00:00.000Z"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "{{page.rating}}",
+    "ratingCount": "{{page.rC}}",
+    "reviewCount": "{{page.riv}}",
+    "bestRating": "5.",
+    "worstRating": "1"
+  },
+  "review": {
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": "NdanG"
+    }
+  },
+  "description": "{{ page.description }}",
+  "sku": "{{page.sku}}",
+  "mpn": "{{page.mpn}}",
+  "category": "{{page.categories}}",
+  "productID": "{{page.noID}}"
+}
+</script>
+    {% endif %}
+    {% include fb-pixel.html %}
+    {% include onesignal.html %}
+<script>
+  function performSignIn() {
+    let headers = new Headers();
+
+    headers.append('Content-Type', 'application/json');
+    headers.append('Accept', 'application/json');
+    headers.append('Authorization', 'Basic ' + base64.encode(username + ":" +  password));
+    headers.append('Origin','https://cdn.as-syariahbordir.com');
+
+    fetch(sign_in, {
+        mode: 'cors',
+        credentials: 'include',
+        method: 'POST',
+        headers: headers
+    })
+    .then(response => response.json())
+    .then(json => console.log(json))
+    .catch(error => console.log('Authorization failed : ' + error.message));
+}
+    </script>
+  </head>

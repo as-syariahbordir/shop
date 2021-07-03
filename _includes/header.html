@@ -1,0 +1,18 @@
+
+    <div class="wrapper-masthead">
+        <ion-header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/products" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+
+          <div class="site-info mobile-hide">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/products">{{ site.title }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav class="mobile-hide">
+    {% for segment in site.data.nav %}
+            <a class="{% if segment.url == page.url %} active{% endif %}" href="{{ segment.url }}">{{ segment.title }}</a>
+   {% endfor %}
+            <a href="{{ site.baseurl }}/cart" id="cart-menu">Cart<ion-badge class="simpleCart_quantity" style="position: relative;top: -6px;left:0;"></ion-badge></a>
+          </nav>
+        </ion-header>
+    </div>
