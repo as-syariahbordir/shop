@@ -1,7 +1,7 @@
 <div class="widget1">
     <h2 class="widget-title">Recent Posts</h2>
     <ion-list>
-      {% for blog in site.blogs limit:5 %}
+      {% for blog in site.blogs limit:1 %}
         <a href="{{ blog.url }}">
         <ion-item>
           <ion-avatar slot="start">

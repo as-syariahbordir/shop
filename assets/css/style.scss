@@ -463,8 +463,9 @@ nav {
 }
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-bottom: 0em;
   border-bottom: 1px solid $lightGray;
+  min-width: -webkit-fill-available;
 }
 
 .posts > .product-post:last-child {

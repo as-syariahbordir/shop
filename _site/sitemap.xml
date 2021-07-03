@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/blogs/Hello-World</loc>
-<lastmod>2021-07-03T18:23:38+07:00</lastmod>
+<loc>http://localhost:4000/blogs/sejarah-penggunaan-masker</loc>
+<lastmod>2020-01-01T10:59:21+07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogs/disiplin-3m-hal-sederhana</loc>
+<lastmod>2021-01-15T10:59:21+07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogs/perbedaan-3-kemasan-vaksin-COVID-19</loc>
+<lastmod>2021-01-19T22:06:21+07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogs/Wilcom-Es-2006-Security-Device-Has-Timed-Out</loc>
+<lastmod>2021-03-12T00:06:21+07:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blogs/Download-Wilcom-ES2006-sp4-Windows7-32bit</loc>
+<lastmod>2021-03-24T12:06:21+07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/products/masker-bordir-tasik-dahlia</loc>
