@@ -4,9 +4,9 @@
       {% for blog in site.blogs limit:1 %}
         <a href="{{ blog.url }}">
         <ion-item>
-          <ion-avatar slot="start">
+          <ion-thumbnail slot="start">
             <img alt="{{blog.title}}" src="{{ blog.image }}">
-          </ion-avatar>
+          </ion-thumbnail>
           <ion-label>{{ blog.title }}</ion-label>
         </ion-item>
         </a>
