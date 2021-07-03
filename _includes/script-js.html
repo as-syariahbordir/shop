@@ -71,17 +71,6 @@ function myCart() {
 }
 </script>
 {% endif %}
-
-		<script src="{{site.baseurl}}/assets/sticksy.js"></script>
-{% if page.layout == "default" %}
-<script>
-    var stickyEl = new Sticksy('.feature_tw.js-sticky-widget', {topSpacing: 60})
-    stickyEl.onStateChanged = function (state) {
-        if(state === 'fixed') stickyEl.nodeRef.classList.add('widget--sticky')
-        else stickyEl.nodeRef.classList.remove('widget--sticky')
-    }
-</script>
-{% endif %}
 <script>
   if ('serviceWorker' in navigator) {
     window.addEventListener('load', () => {
