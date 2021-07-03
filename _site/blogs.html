@@ -264,7 +264,7 @@ id="main-side"
 </div>
 
   
-<div id="twFeature" class="feature_tw js-sticky-widget">
+<div id="twFeature" class="feature_tw">
 <div class="wrapper grid section" id="tw_feature" name="Fitur Toko">
 <div class="widget" data-version="1" id="HTML201" style="padding-top:4%;">
 <div class="icon">
@@ -490,6 +490,13 @@ const _0x385c=['uvf1D3O','tMPfvKi','w14GxsSPkYKRwW','ALjUB0i','yLneyuy','AMHIAha
     }
 </script>
 
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('/sw.js');
+    });
+  }
+</script>
 
   </body>
 </html>

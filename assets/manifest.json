@@ -1,5 +1,14 @@
 {
- "name": "App",
+ "name": "As-Syariah Embroidery",
+ "short_name": "As-Syariah Bordir",
+ "description": "Produk & Jasa Bordir Tasikmalaya",
+ "lang": "ID",
+ "dir": "ltr",
+ "theme_color": "#fff",
+ "start_url": ".",
+ "background_color": "#fff",
+ "display": "standalone",
+ "orientation": "portrait-primary",
  "icons": [
   {
    "src": "https://cdn.as-syariahbordir.com/fav/android-icon-36x36.png",

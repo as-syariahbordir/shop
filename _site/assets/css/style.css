@@ -520,12 +520,8 @@ nav a {
   }
 }
 
-.product-thumb {
-  /*width: 250px;*/
-}
 @media screen and (max-width: 640px) {
   .product-thumb {
-    min-width: 165px;
     margin: 0;
   }
 }
@@ -553,7 +549,6 @@ nav a {
   .posts {
     width: auto;
     grid-gap: 6px;
-    padding-left: 0.5%;
   }
 }
 @media screen and (max-width: 1024px) {

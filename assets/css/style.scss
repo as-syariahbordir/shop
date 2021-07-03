@@ -429,10 +429,8 @@ nav {
     width: 49%;}
 }
 .product-thumb{
-    /*width: 250px;*/
 
     @include mobile {
-    min-width: 165px;
     margin: 0;}
 }
 .product-content {
@@ -456,8 +454,7 @@ nav {
 
     @include mobile {
     width: auto;
-    grid-gap: 6px;
-    padding-left: 0.5%;}
+    grid-gap: 6px;}
 
     @include ipad {
     width:100%;
