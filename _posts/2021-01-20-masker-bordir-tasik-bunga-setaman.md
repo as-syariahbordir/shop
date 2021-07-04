@@ -10,7 +10,7 @@ icon: ui-1_check
 rating: 5.0
 rC: 47
 riv: 206
-sku: setaman
+sku: staman
 mpn: p62s-0901
 noID: i.226754372.4478534055
 stars: star
