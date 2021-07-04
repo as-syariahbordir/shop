@@ -5,8 +5,8 @@ categories: Masker-Bordir
 price: '30.000'
 diskon: 20%
 discount: '24.000'
-stok: Stok Habis
-outstock: disabled
+stok: Stok Tersedia
+outstock: 
 merk: As-Syariah Bordir
 rating: 4.9
 rC: 29
