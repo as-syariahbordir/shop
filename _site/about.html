@@ -319,7 +319,7 @@ Lihat di <a class="popWin" data-fancybox data-type="iframe" data-src="https://ww
 <h3 itemprop="name">Pembayaran &amp; Pengiriman</h3>
 <p/>
 <div class="widget-content">
-<ul class="payShipIcon">
+<ul class="payShipIcon" style="padding-left:0px;">
 
 <li class="" style="background-image:url(&quot;https://lh3.googleusercontent.com/-DzsioYaEw00/XJx4ldwgXbI/AAAAAAAAFOA/6xR4vKNHJnYPzyAmN_sike27rzTozXW8QCLcBGAs/h110/bca.png&quot;);"></li>
 
@@ -336,7 +336,7 @@ Lihat di <a class="popWin" data-fancybox data-type="iframe" data-src="https://ww
 <li class="" style="background-image:url(&quot;https://lh3.googleusercontent.com/-A4IzXY7MGew/XJyJvmrl9uI/AAAAAAAAFO4/3WNw2gXt6pk86FTh8iTS3kNkgaUZFlhEwCLcBGAs/h120/jne.png&quot;);"></li>
 
 <li class="" style="background-image:url(&quot;https://lh3.googleusercontent.com/-LjnAqSKmSIc/XJyJwMnuvFI/AAAAAAAAFPE/elFwJToqWjkYwp4HTf9wS2Leqb4sRV-3ACLcBGAs/h76/jnt&quot;);"></li>
-<li class="midpay" style="background-image:url(&quot;/images/logo-security.png&quot;);width: 312px;height: 78px;border-radius: 5px;background-position: top;"></li>
+<li class="midpay" style="background-image:url(&quot;/images/logo-midtrans.png&quot;);width: 312px;height: 78px;border-radius: 5px;background-position: top;"></li>
 
 </ul>
 </div>
@@ -346,8 +346,8 @@ Lihat di <a class="popWin" data-fancybox data-type="iframe" data-src="https://ww
 <p/>
 <div class="widget-content">
 <div class="btnGroup">
-<ion-chip class="btn btn-primary btn-sm btn-outline-success btn-round" data-fancybox="" data-src="#whatsapp" href="javascript:;"><i class="fab fa-whatsapp" slot="start"></i> <ion-label> Whatsapp</ion-label></ion-chip>
-<ion-chip class="btn btn-primary btn-sm btn-outline-danger btn-round"><i class="fa fa-envelope-o"></i><ion-label> E-mail</ion-label></ion-chip>
+<ion-chip  color="success" data-fancybox="" data-src="#whatsapp" href="javascript:;"><ion-icon name="logo-whatsapp"></ion-icon> <ion-label> Whatsapp</ion-label></ion-chip>
+<ion-chip  color="danger"><ion-icon name="mail-outline"></ion-icon><ion-label> E-mail</ion-label></ion-chip>
 </div>
 <br>
 <small style="font-size:10px;color:#dc3545;">* <b>Senin - Sabtu</b> ( 07:00 s/d 17:00 )</small>
@@ -436,6 +436,23 @@ function myBri() {
       </div>
     </ion-toolbar>
 
+<form style="display:none;width:100%;max-width:400px;margin:0px;align-items:stretch;" validate-form' id='whatsapp'>
+<input class='pertanyaan' id='nomorAdmin' type='hidden'/>
+        <ion-label class="mb-3">
+            Ada pertanyaan? lengkapi data berikut!
+        </ion-label>
+        <ion-item>
+          <ion-label position="floating">Nama Lengkap</ion-label>
+            <ion-input class='nama wajib' placeholder='Nama Lengkap' type="text" highlight-color="success"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Pertanyaan</ion-label>
+            <ion-textarea class='tanya wajib' placeholder='Pertanyaan' type="text" style="border-color:#07bc4c;max-width: 320px;"></ion-textarea>
+        </ion-item>
+        <div class="mb-0 text-right">
+            <a type="button" class="sendWAclik kirim" style="margin-right:10px;color:#07bc4c"><ion-icon class="wa" name="send-outline"></ion-icon></a>
+        </div>
+    </form>
 
 </ion-app>
     
@@ -472,17 +489,6 @@ const _0x385c=['uvf1D3O','tMPfvKi','w14GxsSPkYKRwW','ALjUB0i','yLneyuy','AMHIAha
 
     
 
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js?v2', {
-        scope: '/'
-    }).then(function(registration) {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-        console.log('ServiceWorker registration failed: ', err);
-    });
-}
-</script>
 
   </body>
 </html>

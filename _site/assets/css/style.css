@@ -378,7 +378,6 @@ div.feature_tw {
 .detail-product {
   width: 40%;
   padding: 10px;
-  padding-left: 20px;
 }
 @media screen and (max-width: 640px) {
   .detail-product {
@@ -398,7 +397,6 @@ div.feature_tw {
 
 .style-picker {
   display: flex;
-  grid-gap: 5px;
   flex-wrap: wrap;
   margin-top: 20px;
 }

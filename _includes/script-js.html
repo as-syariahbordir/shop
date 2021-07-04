@@ -71,14 +71,3 @@ function myCart() {
 }
 </script>
 {% endif %}
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js?v2', {
-        scope: '/'
-    }).then(function(registration) {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-        console.log('ServiceWorker registration failed: ', err);
-    });
-}
-</script>

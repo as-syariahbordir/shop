@@ -9,7 +9,7 @@ stok: Stok Tersedia
 icon: ui-1_check
 rating: 5.0
 rC: 180
-riv: 800
+riv: 894
 sku: mawar
 mpn: p62s-2143
 noID: i.226754372.4657392882

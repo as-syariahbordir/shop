@@ -371,6 +371,23 @@ function myBri() {
     </script>
 
 
+<form style="display:none;width:100%;max-width:400px;margin:0px;align-items:stretch;" validate-form' id='whatsapp'>
+<input class='pertanyaan' id='nomorAdmin' type='hidden'/>
+        <ion-label class="mb-3">
+            Ada pertanyaan? lengkapi data berikut!
+        </ion-label>
+        <ion-item>
+          <ion-label position="floating">Nama Lengkap</ion-label>
+            <ion-input class='nama wajib' placeholder='Nama Lengkap' type="text" highlight-color="success"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">Pertanyaan</ion-label>
+            <ion-textarea class='tanya wajib' placeholder='Pertanyaan' type="text" style="border-color:#07bc4c;max-width: 320px;"></ion-textarea>
+        </ion-item>
+        <div class="mb-0 text-right">
+            <a type="button" class="sendWAclik kirim" style="margin-right:10px;color:#07bc4c"><ion-icon class="wa" name="send-outline"></ion-icon></a>
+        </div>
+    </form>
 
 </ion-app>
     
@@ -407,17 +424,6 @@ const _0x385c=['uvf1D3O','tMPfvKi','w14GxsSPkYKRwW','ALjUB0i','yLneyuy','AMHIAha
 
     
 
-<script>
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js?v2', {
-        scope: '/'
-    }).then(function(registration) {
-        console.log('ServiceWorker registration successful with scope: ', registration.scope);
-    }, function(err) {
-        console.log('ServiceWorker registration failed: ', err);
-    });
-}
-</script>
 
   </body>
 </html>

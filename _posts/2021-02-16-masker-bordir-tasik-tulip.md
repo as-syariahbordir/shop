@@ -9,8 +9,8 @@ stok: Stok Tersedia
 icon: ui-1_check
 rating: 4.9
 rC: 40
-riv: 140
-sku: setaman
+riv: 202
+sku: tulip
 mpn: p62s-2152
 noID: i.226754372.8111290977
 stars: star
