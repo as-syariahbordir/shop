@@ -1,12 +1,12 @@
 ---
 title: Masker Bordir Tulip
 description: Masker Kain Bordir Bunga. -Bahan kain 100% Katun
-categories: Apparel & Accessories > Costumes & Accessories > Masks
+categories: Masker-Bordir
 price: '20.000'
 diskon: 22%
 discount: '15.600'
 stok: Stok Tersedia
-icon: ui-1_check
+merk: As-Syariah Bordir
 rating: 4.9
 rC: 40
 riv: 202

@@ -1,16 +1,16 @@
 ---
 title: Masker Bordir Ilalang
 description: Masker Kain Bordir Bunga. -Bahan kain 100% Katun dengan 3 lapisan.
-categories: Apparel & Accessories > Costumes & Accessories > Masks
+categories: Masker-Bordir
 price: '20.000'
 diskon: 22%
 discount: '15.600'
 stok: Stok Tersedia
-icon: ui-1_check
+merk: Plus62Bordir
 rating: 5.0
 rC: 104
 riv: 334
-sku: ilalang
+sku: rumputilalang
 mpn: p62s-2219
 noID: i.226754372.6457391578
 stars: star

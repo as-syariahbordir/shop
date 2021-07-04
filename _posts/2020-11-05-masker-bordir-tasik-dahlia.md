@@ -1,12 +1,12 @@
 ---
 title: Masker Bordir Dahlia
 description: Masker kain bordir manual tasikmalaya murah meriah,
-categories: 'Apparel & Accessories > Costumes & Accessories > Masks'
+categories: Masker-Bordir
 price: '20.000'
 diskon: 22%
 discount: '15.600'
 stok: Stok Tersedia
-icon: ui-1_check
+merk: As-Syariah Bordir
 rating: 5.0
 rC: 211
 riv: 880

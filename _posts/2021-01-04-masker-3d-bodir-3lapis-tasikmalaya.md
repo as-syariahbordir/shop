@@ -1,17 +1,17 @@
 ---
 title: Masker 3D Bordir
 description: Masker3D Bordir, 3Lapisan kain,
-categories: Apparel & Accessories > Costumes & Accessories > Masks
+categories: Masker-Bordir
 price: '30.000'
 diskon: 20%
 discount: '24.000'
 stok: Stok Habis
 outstock: disabled
-icon: ui-1_simple-remove
+merk: As-Syariah Bordir
 rating: 4.9
 rC: 29
 riv: 141
-sku: 3Dmask
+sku: masker3D
 mpn: p62s-2154
 noID: i.226754372.9014129020
 stars: star

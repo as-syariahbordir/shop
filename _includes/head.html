@@ -39,7 +39,7 @@
     <meta property="og:description" content="{{ page.description }}">
     <meta property="og:url" content="{{site.url}}{{page.url}}">
     <meta property="og:image" content="{{ page.image }}">
-    <meta property="product:brand" content="Plus62Bordir">
+    <meta property="product:brand" content="{{ page.merk }}">
     <meta property="product:availability" content="in stock">
     <meta property="product:condition" content="new">
     <meta property="product:price:amount" content="{{ page.price }}">
@@ -143,7 +143,7 @@
   "@type": "Product",
   "name": "{{ page.title }}",
   "image": "{{ page.image }}",
-  "brand":"plus62bordir",
+  "brand":"{{ page.merk }}",
   "offers": {
     "@type": "Offer",
     "priceCurrency": "IDR",

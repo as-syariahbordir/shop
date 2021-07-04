@@ -6,7 +6,7 @@ price: '185.000'
 diskon: 12%
 discount: '162.600'
 stok: Stok Tersedia
-icon: ui-1_check
+merk: As-Syariah Bordir
 rating: 5.0
 rC: 80
 riv: 150
