@@ -771,6 +771,14 @@ function myCart() {
 </script>
 
 
+<script type='text/javascript'>
+//<![CDATA[
+// Sticky widget
+$(function(){if($("#twFeature").length){var o=$("#twFeature"),t=$("#twFeature").offset().top,i=$("#twFeature").height();$(window).scroll(function(){var s=$("#footer").offset().top-i-20,f=$(window).scrollTop();if(f>t?o.css({position:"fixed",top:90}):o.css("position","static"),f>s){var n=s-f;o.css({top:n})}})}});
+//]]>
+</script>
+
+<script src="https://cdn.componentator.com/visitors.min@1.js" async defer></script>
   </body>
 </html>
 
