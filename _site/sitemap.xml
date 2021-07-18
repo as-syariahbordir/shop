@@ -76,6 +76,9 @@
 <loc>http://localhost:4000/order-terkirim</loc>
 </url>
 <url>
+<loc>http://localhost:4000/payment-success</loc>
+</url>
+<url>
 <loc>http://localhost:4000/pembayaran</loc>
 </url>
 <url>

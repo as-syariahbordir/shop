@@ -3,8 +3,8 @@ title: Masker Bordir Mawar
 description: Masker kain Bordir dengan bahan kain 100% katun 3 lapisan
 categories: Masker-Bordir
 price: '20.000'
-diskon: 22%
-discount: '15.600'
+diskon: 16%
+discount: '16.800'
 stok: Stok Tersedia
 merk: Plus62Bordir
 rating: 5.0

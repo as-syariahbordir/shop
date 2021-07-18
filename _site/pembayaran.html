@@ -303,9 +303,39 @@ Lihat di <a class="popWin" data-fancybox data-type="iframe" data-src="https://ww
 
 
 </ion-content>
+    
+<!-- Messenger Plugin Obrolan Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin Obrolan code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "663995656965854");
+      chatbox.setAttribute("attribution", "biz_inbox");
+
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v4.2.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/id_ID/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    
 
 <div style="display: none;" id="qris" class="animated-modal text-center" style="">
-<img class="qris" src="/images/QRen.jpg"/>
+<img class="qris" src="/assets/img/qris.jpeg"/>
 <p>Scan Qris Untuk Membayar Orderan Anda</p>
 <small>*bisa digunakan untuk semua jenis E-wallet yang mendukung QRIS</small>
 </div>

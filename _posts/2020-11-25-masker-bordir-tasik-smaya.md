@@ -3,8 +3,8 @@ title: Masker Bordir sMaya
 description: Bahan Kain Katun, 3 lapis,
 categories: Masker-Bordir
 price: '20.000'
-diskon: 22%
-discount: '15.600'
+diskon: 16%
+discount: '16.800'
 stok: Stok Tersedia
 merk: As-Syariah Bordir
 rating: 5.0

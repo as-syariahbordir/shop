@@ -3,8 +3,8 @@ title: Masker 3D Bordir
 description: Masker3D Bordir, 3Lapisan kain,
 categories: Masker-Bordir
 price: '30.000'
-diskon: 20%
-discount: '24.000'
+diskon: 15%
+discount: '25.500'
 stok: Stok Tersedia
 outstock: 
 merk: As-Syariah Bordir

@@ -3,8 +3,8 @@ title: Masker Bordir Rosse
 description: Masker Kain Bordir Bunga rosse. -Bahan kain 100% Katun premium
 categories: Masker-Bordir
 price: '20.000'
-diskon: 22%
-discount: '15.600'
+diskon: 16%
+discount: '16.800'
 stok: Stok Tersedia
 outstock: 
 merk: As-Syariah Bordir
