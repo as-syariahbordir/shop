@@ -263,7 +263,7 @@ div.feature_tw {
 }
 
 .img-product {
-    width: 60%;
+    width: 55%;
 
   @include mobile {
     width: 100%;}
@@ -294,7 +294,7 @@ div.feature_tw {
     padding: 10px;}
 }
 .detail-product {
-    width: 40%;
+    width: 45%;
     padding: 10px;
 
   @include mobile {
@@ -527,16 +527,17 @@ nav {
   background-color: $lightGray;
   height: 52px;
 }
-.toolsbar-profile {margin:auto;max-width:600px;float:left;}
-.toolsbar-container{margin:auto;max-width:600px;float:right;}
+.toolsbar-profile {margin:auto;max-width:700px;float:left;}
+.toolsbar-container{margin:auto;max-width:700px;float:right;}
 .footer-product {
-    padding: 0 60px;
+    padding: 0 50px;
     display: flex;
     align-items: center;
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
+    background: white;
 
     @include mobile {
     padding: 0px;}
@@ -583,6 +584,13 @@ ion-icon.wa,.alert,.cart-outline,.more{
     height: 30px;
     margin: 10px;
     color: #000;
+}
+
+.close-modal {
+    font-size: 22px;
+    margin: 5px;
+    float: right;
+    cursor: pointer;
 }
 
 .moreModal {
