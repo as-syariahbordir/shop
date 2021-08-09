@@ -255,7 +255,7 @@ div.feature_tw {
 }
 
 .product-img {
-    height: 492px;
+    height: 450px;
     box-shadow: 0 4px 9px -2px black;
 
   @include mobile {
@@ -436,6 +436,12 @@ nav {
     padding: 3px 5px;
 }
 
+.card-post {width:750px;
+
+    @include mobile {
+    width: auto;}
+}
+
 .discount-badge {
     position: absolute;
     margin: 10px;
@@ -463,7 +469,6 @@ nav {
 
 .posts > .post {
   padding-bottom: 0em;
-  border-bottom: 1px solid $lightGray;
   min-width: -webkit-fill-available;
 }
 

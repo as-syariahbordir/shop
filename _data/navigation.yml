@@ -4,9 +4,6 @@
 - title: Blogs
   value: blogs
   url: /blogs
-- title: Payment
-  value: payment
-  url: /pembayaran
 - title: Cart
   value: cart
   url: /cart

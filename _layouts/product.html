@@ -54,7 +54,7 @@ sidebar_option: sidebar
                 <i class="fa fa-minus-circle"></i>
               </span>
         </div>
-          <input type="number" id="counter" class="form-control item_Quantity" value="1" min="1" max="100" style="text-align:center;background:transparent;font-weight:700;border:none;" disabled/>
+          <input type="number" id="counter" class="form-control item_Quantity" value="1" min="1" max="100" style="text-align:center;background:transparent;font-weight:700;border:none;-moz-appearance: textfield;" disabled/>
         <div class="input-group-prepend" style="cursor: pointer;padding: 0 10px;">
               <span class="input-group-right" id="plus" onclick="plus()">
                   <i class="fa fa-plus-circle"></i>
@@ -62,8 +62,7 @@ sidebar_option: sidebar
         </div>
     </div>
 </div>
-<div class="entry" itemprop="description">{{page.description}}</div>
-<div class="app-description-content description-content" style="cursor:pointer;width:fit-content;color: #3880ff;">Selengkapnya...</div>
+<div class="app-description-content description-content" style="cursor:pointer;width:fit-content;color: #3880ff!important;position: relative;bottom: -5px;float: right;margin-top: 25px;"><ion-note color="primary">Deskripsi Produk...</ion-note></div>
   <ion-card class="app-description-text display-none" style="margin:0;">
 <ion-card-header style="padding:0;">
         <ion-buttons class="app-description-content">
@@ -71,6 +70,7 @@ sidebar_option: sidebar
           </ion-button>
         </ion-buttons>
 </ion-card-header>
+<div class="entry" itemprop="description">{{page.description}}</div>
 <ion-card-content>
     <p>{{ content }}</p>
 </ion-card-content>

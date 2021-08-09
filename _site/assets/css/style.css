@@ -330,7 +330,7 @@ div.feature_tw {
 }
 
 .product-img {
-  height: 492px;
+  height: 450px;
   box-shadow: 0 4px 9px -2px black;
 }
 @media screen and (max-width: 640px) {
@@ -357,7 +357,7 @@ div.feature_tw {
   bottom: 0px;
   right: 0px;
   background: #fff;
-  width: 40%;
+  width: 45%;
   height: 100%;
   padding: 10px;
   overflow-y: auto;
@@ -392,6 +392,7 @@ div.feature_tw {
 @media screen and (max-width: 640px) {
   .review {
     width: 100%;
+    margin-bottom: 65px;
   }
 }
 
@@ -528,6 +529,15 @@ nav a {
   padding: 3px 5px;
 }
 
+.card-post {
+  width: 750px;
+}
+@media screen and (max-width: 640px) {
+  .card-post {
+    width: auto;
+  }
+}
+
 .discount-badge {
   position: absolute;
   margin: 10px;
@@ -559,7 +569,6 @@ nav a {
 
 .posts > .post {
   padding-bottom: 0em;
-  border-bottom: 1px solid #eee;
   min-width: -webkit-fill-available;
 }
 
