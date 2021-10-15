@@ -55,7 +55,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="As-Syariah Bordir" />
-    <meta name="msapplication-TileImage" content="https://cdn.as-syariahbordir.com/fav/ms-icon-144x144.png" />
+    <meta name="msapplication-TileImage" content="{{site.baseurl}}/fav/ms-icon-144x144.png" />
     <meta name="msapplication-TileColor" content="#fff" />
     <meta class="theme-color" content="#fff" name="apple-mobile-web-app-status-bar-style" />
     <meta class="theme-color" content="#fff" name="msapplication-navbutton-color" />
@@ -72,7 +72,7 @@
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.url }}/feed.xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<link href="https://cdn.as-syariahbordir.com/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
+<link href="{{site.baseurl}}/assets/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
@@ -184,7 +184,7 @@
     headers.append('Content-Type', 'application/json');
     headers.append('Accept', 'application/json');
     headers.append('Authorization', 'Basic ' + base64.encode(username + ":" +  password));
-    headers.append('Origin','https://cdn.as-syariahbordir.com');
+    headers.append('Origin','{{site.baseurl}}');
 
     fetch(sign_in, {
         mode: 'cors',
