@@ -10,7 +10,7 @@
 
           <nav class="mobile-hide">
     {% for segment in site.data.nav %}
-            <a class="{% if segment.url == page.url %} active{% endif %}" href="{{site.baseurl}}{{ segment.url }}">{{ segment.title }}</a>
+            <a class="{% if segment.url == page.url %} active{% endif %}" href="{{ site.baseurl }}{{ segment.url }}">{{ segment.title }}</a>
    {% endfor %}
             <a href="{{ site.baseurl }}/cart" id="cart-menu">Cart<ion-badge class="simpleCart_quantity" style="position: relative;top: -6px;left:0;"></ion-badge></a>
           </nav>
