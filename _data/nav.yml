@@ -1,6 +1,6 @@
 - title: Products
   value: products
-  url: /products
+  url: shop/products
 - title: Blogs
   value: blogs
-  url: /blogs
+  url: shop/blogs
