@@ -5,7 +5,7 @@ sidebar_option: no-sidebar
 
 <script>
     function pageRedirect() {
-        window.location.replace("/products");
+        window.location.replace("{{site.baseurl}}/products");
     }      
     setTimeout("pageRedirect()", 3000);
 </script>
@@ -24,6 +24,6 @@ sidebar_option: no-sidebar
   </style>
 <script>
 function myButton() {
-  location.replace("/products")
+  location.replace("{{site.baseurl}}/products")
 }
 </script>
