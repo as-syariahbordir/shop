@@ -6,12 +6,12 @@
 
 - title: Payment
   value: blogs
-  url: shop/pembayaran
+  url: /pembayaran
   icon: cash-outline
   color: success
 
 - title: Privacy Policy
   value: privacyPolicy
-  url: shop/privacy-policy
+  url: /privacy-policy
   icon: warning-outline
   color: warning
