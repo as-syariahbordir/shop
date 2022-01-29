@@ -2,7 +2,7 @@
     <h2 class="widget-title">Recent Posts</h2>
     <ion-list>
       {% for blog in site.blogs limit:1 %}
-        <a href="{{ blog.url }}">
+        <a href="{{site.baseurl}}{{ blog.url }}">
         <ion-item>
           <ion-thumbnail slot="start">
             <img alt="{{blog.title}}" src="{{ blog.image }}">
