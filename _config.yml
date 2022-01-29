@@ -18,7 +18,7 @@ signal-id: d85f56db-9ba4-439c-b9e5-653a8f434c68
 safari-web-ID: web.onesignal.auto.0f4ef0fc-d020-4184-9066-253532c318fc
 google_analytics: G-W3QM1KXSNJ
 url: https://as-syariahbordir.github.io/toko
-baseurl: "/as-syariahbordir/toko/"
+baseurl: "/toko/"
 
 permalink: products/:title
 
