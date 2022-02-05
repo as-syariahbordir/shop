@@ -139,7 +139,7 @@ function WhatsApp() {
                 popupWindow.focus();
 				localStorage.removeItem('simpleCart_items');
                 window.location.reload();
-                window.location.href = '/order-terkirim'
+                window.location.href = '/toko/order-terkirim'
 				return false;
 			}
 		}//]]>
