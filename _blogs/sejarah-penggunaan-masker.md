@@ -1,6 +1,6 @@
 ---
 title: Sejarah Penggunaan Masker
-image: /assets/image/tim-covid.jpeg
+image: toko/assets/image/tim-covid.jpeg
 date:   2020-01-01 10:59:21 +0700
 excerpt_separator: <!--more-->
 ---
