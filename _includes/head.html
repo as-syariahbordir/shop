@@ -72,7 +72,7 @@
     <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.url }}/feed.xml" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
-<link href="{{site.baseurl}}/assets/fancybox/dist/jquery.fancybox.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" rel="stylesheet" />
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
@@ -110,6 +110,10 @@
     }
   </script>
 
+    <script type="module">
+      import { loadingController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
+      window.loadingController = loadingController;
+    </script>
   <script type="module">
     import { actionSheetController } from 'https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/index.esm.js';
     window.actionSheetController = actionSheetController;

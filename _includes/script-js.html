@@ -1,7 +1,7 @@
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
-    <script src="{{site.baseurl}}/assets/fancybox/dist/jquery.fancybox.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
     <script src="{{site.baseurl}}/assets/js/jquery-3.6.0.js"></script>
     <script src="{{site.baseurl}}/assets/js/simpleCart.js"></script>
     <script async src="{{site.baseurl}}/assets/js/main.js"></script>
@@ -77,3 +77,33 @@ function myCart() {
 $(function(){if($("#twFeature").length){var o=$("#twFeature"),t=$("#twFeature").offset().top,i=$("#twFeature").height();$(window).scroll(function(){var s=$("#footer").offset().top-i-20,f=$(window).scrollTop();if(f>t?o.css({position:"fixed",top:90}):o.css("position","static"),f>s){var n=s-f;o.css({top:n})}})}});
 //]]>
 </script>
+<script>
+ function setModal(modalBtn) {
+        var bagBtn = document.getElementById('bagBtn')
+        var xBtn = document.getElementById('xBtn')
+
+        if(modalBtn) {
+            xBtn.style.display = "block"
+            bagBtn.style.display = "none"
+        } else {
+            xBtn.style.display = "none"
+            bagBtn.style.display = "block"
+        }
+
+        document.body.classList.toggle("modalBtn");
+    }
+</script>
+<script>
+      async function onLoad() {
+  const loading = document.createElement('ion-loading');
+
+  loading.message = 'Mohon Tunggu...';
+  loading.duration = 2000;
+
+  document.body.appendChild(loading);
+  await loading.present();
+
+  const { role, data } = await loading.onDidDismiss();
+  console.log('Loading dismissed!');
+}
+    </script>
